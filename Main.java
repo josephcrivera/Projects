@@ -17,7 +17,7 @@ class Main {
 		msg.setSeats(newSeats);
 
 		while(go){//main loop for whole system
-			System.out.println("Welcome to "+msg.getName()+"!\nTonight we are featuring "+msg.getEvent());
+			System.out.println("Welcome to "+msg.getName()+"!\nTonight we are featuring: "+msg.getEvent());
 			System.out.println("1. Create User\n2. Login\n3. Exit");
 			String choice = input.nextLine();
 			if(choice.equals("1")){//creating a user
